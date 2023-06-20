@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Textiles</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+        margin: 0;
+        padding: 20px;
+      }
+  
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+  
+      .section {
+        margin-bottom: 20px;
+      }
+  
+      .section h3 {
+        color: #555;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+  
+      .section label {
+        display: block;
+        margin-bottom: 5px;
+        color: #888;
+      }
+  
+      .section input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+  
+      .section input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .section input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+ <body>
+    <h2>Gestión de Textiles</h2>
+  
+    <div class="section">
+      <h3>Entrada de Material</h3>
+      <form>
+        <div>
+          <label for="entrada_material_nombre">Nombre:</label>
+          <input type="text" id="entrada_material_nombre" name="entrada_material_nombre" required>
+        </div>
+  
+        <div>
+          <label for="entrada_material_cantidad">Cantidad:</label>
+          <input type="text" id="entrada_material_cantidad" name="entrada_material_cantidad" required>
+        </div>
+  
+        <div>
+          <input type="submit" value="Guardar Entrada">
+        </div>
+      </form>
+    </div>
+  
+    <div class="section">
+      <h3>Salida de Material</h3>
+      <form>
+        <div>
+          <label for="salida_material_nombre">Nombre:</label>
+          <input type="text" id="salida_material_nombre" name="salida_material_nombre" required>
+        </div>
+  
+        <div>
+          <label for="salida_material_cantidad">Cantidad:</label>
+          <input type="text" id="salida_material_cantidad" name="salida_material_cantidad" required>
+        </div>
+  
+        <div>
+          <input type="submit" value="Guardar Salida">
+        </div>
+      </form>
+    </div>
+  
+    <div class="section">
+      <h3>Proveedores</h3>
+      <form>
+        <div>
+          <label for="proveedor_nombre">Nombre:</label>
+          <input type="text" id="proveedor_nombre" name="proveedor_nombre" required>
+        </div>
+  
+        <div>
+          <label for="proveedor_telefono">Teléfono:</label>
+          <input type="text" id="proveedor_telefono" name="proveedor_telefono" required>
+        </div>
+  
+        <div>
+          <input type="submit" value="Guardar Proveedor">
+        </div>
+      </form>
+    </div>
+  
+    <div class="section">
+      <h3>Empleados</h3>
+      <form>
+        <div>
+          <label for="empleado_nombre">Nombre:</label>
+          <input type="text" id="empleado_nombre" name="empleado_nombre" required>
+        </div>
+  
+        <div>
+          <label for="empleado_puesto">Puesto:</label>
+          <input type="text" id="empleado_puesto" name="empleado_puesto" required>
+        </div>
+  
+        <div>
+          <input type="submit" value="Guardar Empleado">
+        </div>
+      </form>
+    </div>
+  
+    <div class="section">
+      <h3>Maquiladores</h3>
+      <form>
+        <div>
+          <label for="maquilador_nombre">Nombre:</label>
+          <input type="text" id="maquilador_nombre" name="maquilador_nombre" required>
+        </div>
+  
+        <div>
+          <label for="maquilador_direccion">Dirección:</label>
+          <input type="text" id="maquilador_direccion" name="maquilador_direccion" required>
+        </div>
+  
+        <div>
+          <input type="submit" value="Guardar Maquilador">
+        </div>
+      </form>
+    </div>
+</body>
+</html>
